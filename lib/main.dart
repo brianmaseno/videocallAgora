@@ -29,7 +29,7 @@ class AgoraVideoCall extends StatelessWidget {
           modalBackgroundColor: ColorUtils.transparentColor,
         ),
         primaryColor: ColorUtils.primaryColor,
-        accentColor: Colors.white,
+        hintColor: Colors.white,
         fontFamily: 'Asap',
         pageTransitionsTheme: PageTransitionsTheme(builders: {
           TargetPlatform.android: CupertinoPageTransitionsBuilder(),
